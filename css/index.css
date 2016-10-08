@@ -1,0 +1,197 @@
+    /*subbanner部分start*/
+    .subbanner {
+        position: relative;
+        /*z-index: -1;*/
+    }
+    .subbanner a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 625px;
+        background: url(../images/subbanner.jpg) no-repeat center top;
+    }
+    /*subbanner部分end*/
+
+    /*main部分start*/
+    .main {
+        position: relative;
+    }
+    .main-slider {
+        float: left;
+        position: relative;
+        margin: 12px 0 0 220px;
+    }
+    .main-slider ul {
+        position: absolute;
+        left: 50%;
+        margin-left: -66px;
+        bottom: 10px;
+    }
+    .main-slider li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        color: #fff;
+        text-align: center;
+        line-height: 18px;
+        margin: 0 2px;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+    .main-slider .current {
+        background-color: #B61B1F;
+    }
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        /*left: 0;*/
+        margin-top: -31px;
+        width: 28px;
+        height: 62px;
+        background: rgba(0,0,0, 0.3);
+        color: #fff;
+        text-align: center;
+        font: 400 22px/62px "simsun";
+        /*opacity: .3;*/
+    }
+    .arrow a:hover {
+        background: rgba(0,0,0, .6);
+    }
+    .arrow .arrow-left {
+        left: 0;
+    }
+    .arrow .arrow-right {
+        right: 0;
+    }
+    .main-news {
+        float: right;
+        /*margin-left:-1px;*/
+        margin-right: 1px;
+    }
+    .main-news-faster {
+        width: 248px;
+        height: 372px;
+        overflow: hidden;
+        border: 1px solid #E4E4E4;
+        margin: 12px 0 5px;
+    }
+    .main-news-faster-top {
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;         /*大使的---虚线*/
+    }
+    .main-news-faster-top-title {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 15px;
+        border-bottom: 1px dotted #E4E4E4;         /*刀剃的...点线*/
+    }
+    .main-news-faster-top-title h2 {
+        float: left;
+        font: 400 16px/32px "microsoft yahei";
+    }
+    .main-news-faster-top-title a {
+        float: right;
+        font-family: "consolas";
+    }
+    .main-news-faster-top-content {
+        padding: 5px 0 0 15px;
+        line-height: 24px;
+    }
+    .main-news-faster-top-content span {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .main-news-faster-money ul {
+        width: 260px;
+    }
+    .main-news-faster-money li {
+        width: 62px;
+        height: 70px;
+        float: left;
+        margin-top: -1px;
+        margin-left: -1px;
+        border: 1px solid #E8E8E7;
+        border-top: 0;
+    }
+    .main-news-faster-money a {
+        display: block;
+        width: 62px;
+        height: 30px;
+        padding-top: 40px;
+        line-height: 30px;
+        text-align: center;
+        position: relative;
+    }
+    .main-news-faster-money .show {
+        background: url(../images/send.png) no-repeat right top;
+    }
+    .main-news-faster-money i {
+        position: absolute;
+        top: 13px;
+        left: 18px;
+        width: 25px;
+        height: 25px;
+        background: url(../images/fly.png) no-repeat;
+    }
+    .main-news-faster-money .main-news-faster-money-icon2 {
+        background-position: 0 -25px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon3 {
+        background-position: 0 -50px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon4 {
+        background-position: 0 -75px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon5 {
+        background-position: 0 -100px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon6 {
+        background-position: 0 -125px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon7 {
+        background-position: 0 -150px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon8 {
+        background-position: 0 -175px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon9 {
+        background-position: 0 -200px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon10 {
+        background-position: 0 -225px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon11 {
+        background-position: 0 -250px;
+    }
+    .main-news-faster-money .main-news-faster-money-icon12 {
+        background-position: 0 -275px;
+    }
+    /*main部分end*/
+
+    /*super部分start*/
+    .super {
+        position: relative;
+        padding: 20px 0;
+    }
+    .super-left {
+        width: 210px;
+        float: left;
+    }
+    .super-right {
+        float: left;
+        width: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .super-right ul {
+        width: 450%;
+    }
+    .super-right li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*super部分end*/
+
+
